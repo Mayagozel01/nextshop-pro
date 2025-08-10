@@ -1,5 +1,10 @@
+import Banner from "../components/Banner/Banner";
+import Flex from "../ui/Flex/Flex";
+
 const HomePage = () => {
-  return <div>hellow</div>;
+  return (
+      <Banner/>
+  );
 };
 
 export default HomePage;
