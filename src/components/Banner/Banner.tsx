@@ -1,11 +1,12 @@
 import Flex from "../../ui/Flex/Flex";
 import Font from "../../ui/Font/Font";
-import apple from "../../assets/pictures/homepage/1200px-Apple_gray_logo 1.png"
+import apple from "../../assets/pictures/homepage/1200px-Apple_gray_logo 1.png";
+import iphone from "../../assets/pictures/homepage/bannerPhone.png";
 import styled, { useTheme } from "styled-components";
 
 const FlexBanner = styled(Flex)`
   background-color: ${props => props.theme.colors.black_1};
-  width:"70%";
+  width:70%;
 
 `;
 
@@ -13,7 +14,7 @@ const FlexBanner = styled(Flex)`
 const Banner = ()=>{
     const theme = useTheme();
     return(
-        <Flex justify="space-between">
+        <Flex justify="space-between" gap="5%">
         <Flex direction="column" items="start" justify="space-between" rightBorder="1px solid black"
         paddingTop="15px">
             <Font>Woman’s Fashion</Font>
@@ -27,7 +28,13 @@ const Banner = ()=>{
             <Font>Health & Beauty</Font>
         </Flex>
         <FlexBanner paddingTop="15px" flexBorder="2px solid firebrick">
-            <Flex justify="space-between" gap="10px" left="0" right="0"><img src={apple} alt="iphonelogo" /><Font color={theme.colors.white_0}>iPhone 14 Series</Font></Flex>
+            <Flex justify="space-between" gap="10px" left="0" right="0">
+            <img src={apple} alt="iphonelogo" /><Font color={theme.colors.white_0}>iPhone 14 Series</Font>
+            </Flex>
+            <Flex justify="space-between" gap="10px" left="0" right="0">
+            <img src={iphone} alt="iphone" /><Font color={theme.colors.white_0}>iPhone 14 Series</Font>
+            </Flex>
+
         </FlexBanner>
         </Flex>
     )
