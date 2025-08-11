@@ -7,6 +7,7 @@ export const theme = {
     muted: '#777777',
     border: '#E5E5E5',
     black_1: '#000000',
+    red_0:"#DB4444",
   },
   fonts: {
     body: "'Inter', sans-serif",
@@ -19,6 +20,7 @@ export const theme = {
     small: '0.875rem',
     regular_14: '14px',
     regular_15: '16px',
+    big:"3rem",
   },
   radii: {
     small: '4px',

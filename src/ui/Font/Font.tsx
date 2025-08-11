@@ -16,7 +16,7 @@ type HProps = {
 };
 
 type Font = {
-  children: ReactNode;
+  children?: ReactNode;
   className?: string;
   color?: string;
   fontSize?: string;

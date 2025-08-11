@@ -10,6 +10,7 @@ declare module 'styled-components' {
       muted: string;
       border: string;
       black_1: string;
+      red_0:string;
     };
     fonts: {
       body: string;
@@ -22,6 +23,7 @@ declare module 'styled-components' {
       small: string;
       regular_14: string;
       regular_15: string;
+      big:string;
     };
     radii: {
       small: string;

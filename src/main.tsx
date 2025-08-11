@@ -6,7 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import { Provider } from 'react-redux';
 import { theme } from './styles/theme';
 import GlobalStyle from './styles/GlobalStyle';
-
+import "./styles/global.css"
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>

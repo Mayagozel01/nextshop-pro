@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import PoppinsRegular from '/src/assets/fonts/Poppins/Poppins-Regular.ttf';
 import PoppinsBold from '/src/assets/fonts/Poppins/Poppins-Bold.ttf';
 
+
 const GlobalStyle = createGlobalStyle`
   *, *::before, *::after {
     margin: 0;

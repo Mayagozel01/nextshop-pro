@@ -20,10 +20,18 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    // "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
-  },
-  "include": ["src"]
-}
+    // "noUncheckedSideEffectImports": true,
 
+    "types": [
+      "react",
+      "react-dom",
+      "styled-components",
+      "tailwindcss/types/styled-components"
+    ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
