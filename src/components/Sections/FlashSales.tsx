@@ -1,6 +1,7 @@
 import Flex from "../../ui/Flex/Flex"
 import Font from "../../ui/Font/Font";
 import SectionTitle from "../../ui/Section/SectionTitle"
+import ProductList from "../ProductList/ProductList";
 import Time from "./Time";
 
 const FlashSales = ()=>{
@@ -11,6 +12,7 @@ const FlashSales = ()=>{
                 <Font fontSize="30px" fontWeight="800"  >Flash Sales</Font>
                 <Time/>
             </Flex>
+            <ProductList/>
         </Flex>
     )
 }

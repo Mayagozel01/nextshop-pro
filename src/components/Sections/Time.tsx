@@ -19,6 +19,10 @@ const Time = ()=>{
             <div>
                 <Font fontSize="12px">Days</Font>
                 <Font fontSize={theme.fontSizes.big} fontWeight="700">03</Font>
+            </div> <Font fontSize={theme.fontSizes.big} color={theme.colors.red_0}>:</Font>
+            <div>
+                <Font fontSize="12px">Days</Font>
+                <Font fontSize={theme.fontSizes.big} fontWeight="700">03</Font>
             </div>
         </Flex>
     )
