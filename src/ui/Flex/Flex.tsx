@@ -15,6 +15,7 @@ const FlexedDiv = styled.div<FlexedDivProps>`
   border-right: ${props => props.rightBorder || 'none'};
   margin-top:${props => props.top || "0"};
   width:${props=>props.width || "100%"};
+  height:${props=>props.height || "auto"};
 `;
 
 type FlexProps = {
@@ -32,6 +33,7 @@ type FlexProps = {
   rightBorder?: string;
   top?:string;
   width?:string;
+  height?:string;
 };
 
 type FlexedDivProps = {
@@ -47,6 +49,7 @@ type FlexedDivProps = {
   rightBorder?: string;
   top?:string;
   width?:string;
+  height?:string;
 };
 
 const Flex = ({
@@ -63,7 +66,8 @@ const Flex = ({
   rightBorder,
   flexBorder,
   top,
-  width
+  width,
+  height
 }: FlexProps) => {
   return (
     <FlexedDiv
@@ -80,6 +84,7 @@ const Flex = ({
       right={right}
       top={top}
       width={width}
+      height={height}
     >
       {children}
     </FlexedDiv>
