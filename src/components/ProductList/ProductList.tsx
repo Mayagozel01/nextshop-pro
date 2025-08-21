@@ -2,13 +2,13 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import type { RootState, AppDispatch } from "../../redux/store";
-import { setProducts, removeProduct } from "../../redux/actions/productActions";
+import { setProducts } from "../../redux/actions/productActions";
 import { mockProducts } from "../../mocks/products"; 
 import type { Product } from "../../redux/types";
 import RedButton from "../../ui/Button/Button";
 import { theme } from "../../styles/theme";
 import Flex from "../../ui/Flex/Flex";
-import Card, { type CardTypes } from "../../ui/Card/Card";
+import Card from "../../ui/Card/Card";
 
 const ProductList: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();

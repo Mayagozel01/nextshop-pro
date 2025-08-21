@@ -27,7 +27,6 @@
       "react",
       "react-dom",
       "styled-components",
-      "tailwindcss/types/styled-components"
     ],
     "esModuleInterop": true,
     "resolveJsonModule": true
