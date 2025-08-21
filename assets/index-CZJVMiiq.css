@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;.icons{display:flex;flex-direction:column;gap:10px}.icons>div{border-radius:50%;background-color:#fff;padding:6px;display:flex;justify-content:center;align-items:center}
